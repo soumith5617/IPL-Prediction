@@ -1,0 +1,54 @@
+{
+  "model_name": "Gradient Boosting Classifier",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 82.58,
+      "Precision": 83.04,
+      "Recall": 83.67,
+      "F1_Score": 83.35,
+      "ROC_AUC": 0.9096,
+      "Log_Loss": 0.3779,
+      "Brier_Score": 0.121
+    },
+    "Random Forest Classifier": {
+      "Accuracy": 92.15,
+      "Precision": 92.16,
+      "Recall": 92.84,
+      "F1_Score": 92.5,
+      "ROC_AUC": 0.9786,
+      "Log_Loss": 0.2905,
+      "Brier_Score": 0.081
+    },
+    "Gradient Boosting Classifier": {
+      "Accuracy": 96.91,
+      "Precision": 96.49,
+      "Recall": 97.62,
+      "F1_Score": 97.05,
+      "ROC_AUC": 0.9954,
+      "Log_Loss": 0.1633,
+      "Brier_Score": 0.039
+    }
+  },
+  "best_metrics": {
+    "Accuracy": 96.91,
+    "Precision": 96.49,
+    "Recall": 97.62,
+    "F1_Score": 97.05,
+    "ROC_AUC": 0.9954,
+    "Log_Loss": 0.1633,
+    "Brier_Score": 0.039
+  },
+  "feature_columns": [
+    "batting_team",
+    "bowling_team",
+    "city",
+    "runs_needed",
+    "balls_remaining",
+    "wickets_left",
+    "target_score",
+    "crr",
+    "rrr"
+  ],
+  "total_samples": 53558,
+  "random_state": 42
+}
